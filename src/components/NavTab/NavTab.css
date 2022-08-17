@@ -1,0 +1,40 @@
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 24px 53px;
+}
+
+.tab__wrap {
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.tab__item {
+}
+
+.tab__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .tab__wrap {
+    gap: 40px;
+  }
+
+  .tab__link {
+    font-size: 13px;
+  }
+}
