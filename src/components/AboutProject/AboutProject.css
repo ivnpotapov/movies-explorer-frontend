@@ -6,6 +6,7 @@
 }
 
 .project__wrap {
+  width: 100%;
   max-width: 1280px;
 }
 
@@ -24,6 +25,7 @@
 .project__text-wrap {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 0 0 60px 0;
 }
 
@@ -100,7 +102,7 @@
 
 @media screen and (min-width: 768px) {
   .project {
-    padding: 90px 18px;
+    padding: 90px 50px;
   }
 
   .project__title {
@@ -157,7 +159,7 @@
 
 @media screen and (min-width: 1280px) {
   .project {
-    padding: 110px 18px;
+    padding: 110px 70px;
   }
 
   .project__title {

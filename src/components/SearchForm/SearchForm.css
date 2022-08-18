@@ -25,7 +25,7 @@
   padding: 13px 16px;
   border: 0;
   box-sizing: border-box;
-
+  outline: none;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -47,6 +47,10 @@
   text-align: center;
   color: #ffffff;
   box-sizing: border-box;
+}
+
+.search__button-submit:hover {
+  cursor: pointer;
 }
 
 .search__checkbox-wrap {

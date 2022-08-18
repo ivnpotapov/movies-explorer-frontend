@@ -43,7 +43,7 @@ const Signin = () => {
           </button>
           <div className='signin__text-container'>
             <p className='signin__text'>Ещё не зарегистрированы?</p>
-            <Link to={routes.signin} className='signin__text-link'>
+            <Link to={routes.signup} className='signin__text-link'>
               Регистрация
             </Link>
           </div>
