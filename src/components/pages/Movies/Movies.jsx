@@ -12,11 +12,7 @@ const Movies = () => {
       <Header />
       <SearchForm />
       <MoviesCardList />
-      <div className='add__wrap'>
-        <button type='button' className='add__button'>
-          Ещё
-        </button>
-      </div>
+
       <Footer />
     </>
   );

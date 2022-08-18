@@ -58,28 +58,28 @@ export const moviesCardList = [
     img: movieThamb,
     isSaved: false,
   },
-  {
-    title: '33 слова о дизайне',
-    time: '1ч 47м',
-    img: movieThamb,
-    isSaved: false,
-  },
-  {
-    title: '33 слова о дизайне',
-    time: '1ч 47м',
-    img: movieThamb,
-    isSaved: false,
-  },
-  {
-    title: '33 слова о дизайне',
-    time: '1ч 47м',
-    img: movieThamb,
-    isSaved: false,
-  },
-  {
-    title: '33 слова о дизайне',
-    time: '1ч 47м',
-    img: movieThamb,
-    isSaved: false,
-  },
+  // {
+  //   title: '33 слова о дизайне',
+  //   time: '1ч 47м',
+  //   img: movieThamb,
+  //   isSaved: false,
+  // },
+  // {
+  //   title: '33 слова о дизайне',
+  //   time: '1ч 47м',
+  //   img: movieThamb,
+  //   isSaved: false,
+  // },
+  // {
+  //   title: '33 слова о дизайне',
+  //   time: '1ч 47м',
+  //   img: movieThamb,
+  //   isSaved: false,
+  // },
+  // {
+  //   title: '33 слова о дизайне',
+  //   time: '1ч 47м',
+  //   img: movieThamb,
+  //   isSaved: false,
+  // },
 ];
