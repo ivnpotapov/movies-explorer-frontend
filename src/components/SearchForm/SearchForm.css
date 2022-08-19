@@ -26,20 +26,25 @@
   border: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   color: #a0a0a0;
 }
+
+.search__input:focus {
+  outline: 1px solid #000000;
+}
+
 .search__button-submit {
   width: 70px;
   height: 44px;
   border: 0;
   background: #000000;
   border-radius: 40px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -69,7 +74,7 @@
 
 .search__label {
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;

@@ -6,7 +6,7 @@ import Logo from '../../Logo/Logo';
 
 const Signin = () => {
   return (
-    <section className='signin'>
+    <main className='signin'>
       <div className='signin__wrap'>
         <Logo />
         <h2 className='signin__title'>Рады видеть!</h2>
@@ -49,7 +49,7 @@ const Signin = () => {
           </div>
         </div>
       </div>
-    </section>
+    </main>
   );
 };
 

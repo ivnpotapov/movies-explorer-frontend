@@ -15,7 +15,7 @@
 
 .profile__title {
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -47,7 +47,7 @@
 
 .profile__label {
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
@@ -56,7 +56,7 @@
 
 .profile__value {
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -65,8 +65,7 @@
 
 .profile__edit {
   margin: 0;
-  /* padding: 363px 0 0 0; */
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -80,7 +79,7 @@
 .profile__exit {
   margin: 0;
   padding: 16px 0 0 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;

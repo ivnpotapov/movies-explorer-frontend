@@ -5,7 +5,7 @@ import './NotFound.css';
 const NotFound = () => {
   const navigation = useNavigate();
   return (
-    <section className='not'>
+    <main className='not'>
       <div className='not__wrap'>
         <div className='not__text-wrap'>
           <h2 className='not__title'>404</h2>
@@ -15,7 +15,7 @@ const NotFound = () => {
           Назад
         </p>
       </div>
-    </section>
+    </main>
   );
 };
 
