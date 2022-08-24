@@ -1,0 +1,95 @@
+.portfolio {
+  padding: 0 14px 51px 14px;
+}
+
+.portfolio__wrap {
+}
+
+.portfolio__title {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a0a0a0;
+}
+
+.portfolio__link-wrap {
+  padding: 40px 0 0 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.portfolio__link-item {
+  width: 100%;
+  padding: 0 0 19px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.portfolio__link-item:last-of-type {
+  border: 0;
+}
+
+.portfolio__link {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.portfolio__link::after {
+  font-size: 16px;
+  content: '🡥';
+  position: relative;
+  right: 4px;
+  top: -2px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    padding: 0 50px 71px 50px;
+  }
+
+  .portfolio__title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .portfolio__link-wrap {
+    padding: 50px 0 0 0;
+  }
+
+  .portfolio__link {
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  .portfolio__link::after {
+    font-size: 24px;
+    content: url('../../images/icon-arroy.svg');
+    position: relative;
+    right: 6px;
+    top: 3px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .portfolio {
+    padding: 0 70px 106px 70px;
+  }
+
+  .portfolio__link {
+    font-size: 30px;
+  }
+}
