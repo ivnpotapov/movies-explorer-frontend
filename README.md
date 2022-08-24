@@ -1,3 +1,5 @@
+Пулреквест: [https://github.com/ivnpotapov/movies-explorer-frontend/pull/2](https://github.com/ivnpotapov/movies-explorer-frontend/pull/2)
+
 Домены для проекта:
 Фронтенд: [https://ivmovie.nomoredomains.xyz](https://ivmovie.nomoredomains.xyz)
 Бэкенд: [https://api.ivmovie.nomoredomains.xyz](https://api.ivmovie.nomoredomains.xyz)
