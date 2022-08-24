@@ -82,13 +82,6 @@
   color: #ff4062;
 }
 
-.signup__error-username {
-}
-.signup__error-email {
-}
-.signup__error-password {
-}
-
 .signup__control-wrap {
   display: flex;
   flex-direction: column;
@@ -97,6 +90,7 @@
 }
 
 .signup__button {
+  cursor: default;
   padding: 0;
   width: 260px;
   height: 45px;
@@ -108,8 +102,16 @@
   line-height: 15px;
   text-align: center;
   color: #ffffff;
-  background: #000000;
+  background: gray;
   border-radius: 3px;
+}
+
+.signup__button_active {
+  background: #000000;
+}
+
+.signup__button_active:hover {
+  cursor: pointer;
 }
 
 .signup__text-container {

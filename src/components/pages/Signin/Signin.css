@@ -82,13 +82,6 @@
   color: #ff4062;
 }
 
-.signin__error-username {
-}
-.signin__error-email {
-}
-.signin__error-password {
-}
-
 .signin__control-wrap {
   display: flex;
   flex-direction: column;
@@ -97,6 +90,7 @@
 }
 
 .signin__button {
+  cursor: default;
   padding: 0;
   width: 260px;
   height: 45px;
@@ -108,8 +102,16 @@
   line-height: 15px;
   text-align: center;
   color: #ffffff;
-  background: #000000;
+  background: gray;
   border-radius: 3px;
+}
+
+.signin__button_active {
+  background: #000000;
+}
+
+.signin__button_active:hover {
+  cursor: pointer;
 }
 
 .signin__text-container {

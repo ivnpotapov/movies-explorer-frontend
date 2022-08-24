@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.add__wrap_hidden {
+  display: none;
+}
+
 .add__button {
   padding: 11px 20px 9px 20px;
   width: 240px;
