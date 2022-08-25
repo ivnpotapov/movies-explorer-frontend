@@ -77,7 +77,9 @@ const MoviesCard = (props) => {
           onClick={handelSaveClick}
           className={`movie__icon ${saved}`}></span>
       </div>
-      <img src={card.image} alt={card.nameRU} className='movie__img' />
+      <a href={card.trailerLink} target='_blank' rel='noreferrer'>
+        <img src={card.image} alt={card.nameRU} className='movie__img' />
+      </a>
     </article>
   );
 };

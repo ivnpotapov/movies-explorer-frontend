@@ -10,8 +10,7 @@ import { mainApi } from '../../../utils/MainApi';
 const Signin = () => {
   const context = useContext(CurrentUserContext);
   const navigation = useNavigate();
-  const { values, handleChange, errors, isValid, resetForm, setValues } =
-    useFormWithValidation();
+  const { values, handleChange, errors, isValid } = useFormWithValidation();
   const [isLoginError, setIsLoginError] = useState(false);
   const [isSubmitPosible, setIsSubmitPosible] = useState(true);
 
