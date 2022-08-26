@@ -4,7 +4,7 @@ import { routes } from '../../utils/constants';
 import Preloader from '../Preloader/Preloader';
 
 const ProtectedRoute = (props) => {
-  return props.isPreloader ? (
+  return props.isPreloader && !props.isLogined ? (
     <Preloader />
   ) : props.isLogined ? (
     <Outlet />

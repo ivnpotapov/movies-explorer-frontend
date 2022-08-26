@@ -96,7 +96,7 @@ const Signin = () => {
             className={`signin__error ${
               isLoginError ? 'signin__error_active' : ''
             }`}>
-            Ошибка регистрации
+            Ошибка входа
           </span>
           <button
             disabled={!isValid || !isSubmitPosible}

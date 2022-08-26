@@ -13,6 +13,7 @@ const Profile = () => {
   const [isSubmitPosible, setIsSubmitPosible] = useState(true);
   const [isEditError, setIsEditError] = useState(false);
   const [isSucses, setIsSucses] = useState(false);
+
   const { values, handleChange, errors, isValid, setValues } =
     useFormWithValidation();
 
@@ -33,21 +34,23 @@ const Profile = () => {
     }
   }, [context.isLogined, navigation]);
 
-  const handelEditSubmit = () => {
+  const handelEditSubmit = (e) => {
+    e.preventDefault();
     setIsSucses(false);
     setIsEditError(false);
     setIsSubmitPosible(false);
     mainApi
       .setUser(values.username, values.email)
       .then((res) => {
-        context.tokenCheck();
         setIsSucses(true);
+        context.tokenCheck();
       })
       .catch((err) => {
         setIsEditError(true);
       })
       .finally(() => {
         setIsSubmitPosible(true);
+        setIsSucses(true);
       });
   };
 
@@ -59,6 +62,11 @@ const Profile = () => {
     localStorage.removeItem('isShortChecked');
   };
 
+  const isInputsChange =
+    context.currentUser.name !== values.username ||
+    values.email !== context.currentUser.email;
+
+  console.log('isSucses', isSucses);
   return (
     <>
       <Header />
@@ -115,10 +123,12 @@ const Profile = () => {
             </span>
             <button
               onClick={handelEditSubmit}
-              disabled={!isValid || !isSubmitPosible}
+              disabled={!isValid || !isSubmitPosible || !isInputsChange}
               type='button'
               className={`profile__edit ${
-                isSubmitPosible && isValid ? 'profile__edit_active' : ''
+                isInputsChange && isSubmitPosible && isValid
+                  ? 'profile__edit_active'
+                  : ''
               }`}
               aria-label='Редактировать'>
               Редактировать

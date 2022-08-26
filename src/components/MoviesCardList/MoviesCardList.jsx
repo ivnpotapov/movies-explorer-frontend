@@ -47,7 +47,7 @@ const MoviesCardList = (props) => {
     cardsList = props.moviesForRender
       .filter((el, idx) => idx < numberOfCard.init)
       .map((el, idx) => (
-        <MoviesCard key={`${el.movieId}${idx}`} card={el} isSaved={false} />
+        <MoviesCard key={`${el._id}`} card={el} isSaved={false} />
       ));
   } else if (props.isSearched) {
     cardsList = 'Ничего не найдено';
