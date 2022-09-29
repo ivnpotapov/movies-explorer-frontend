@@ -18,7 +18,7 @@ HTML, CSS, JS, React
 ### Ссылки
 
 Frontend: [https://ivnpotapov.github.io/movies-explorer-frontend/](https://ivnpotapov.github.io/movies-explorer-frontend/)  
-Backend: [https://movies-explorer-api-ntta.onrender.com]https://movies-explorer-api-ntta.onrender.com)
+Backend: [https://movies-explorer-api-ntta.onrender.com](https://movies-explorer-api-ntta.onrender.com)
 
 ### Инструкция по развёртыванию
 
