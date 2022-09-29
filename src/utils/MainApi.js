@@ -132,7 +132,7 @@ class MainApi {
 }
 
 export const mainApi = new MainApi({
-  baseUrl: 'https://api.ivmovie.nomoredomains.xyz',
+  baseUrl: 'https://movies-explorer-api-ntta.onrender.com',
   // baseUrl: 'http://localhost:3000',
   headers: {
     'Content-Type': 'application/json',

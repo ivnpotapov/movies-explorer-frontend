@@ -1,12 +1,12 @@
 import movieThamb from '../images/movie-pic.png';
 
 export const routes = {
-  home: '/',
-  signup: '/signup',
-  signin: '/signin',
-  profile: '/profile',
-  movies: '/movies',
-  savedMovies: '/saved-movies',
+  home: '/movies-explorer-frontend/',
+  signup: '/movies-explorer-frontend/signup',
+  signin: '/movies-explorer-frontend/signin',
+  profile: '/movies-explorer-frontend/profile',
+  movies: '/movies-explorer-frontend/movies',
+  savedMovies: '/movies-explorer-frontend/saved-movies',
 };
 
 export const moviesCardList = [
